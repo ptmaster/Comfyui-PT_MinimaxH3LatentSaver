@@ -20,6 +20,7 @@ latent 在手, 天下任我走. With latent power in hand, I shall command this 
 方式 A (点击)：点击节点上的 📂 点击选择 .latent 文件 按钮，从电脑任意位置选择文件。
 方式 B (拖拽)：直接将 .latent 文件从文件夹拖拽到节点上。
 节点会自动上传、解析并重建 Nested Tensor。将 LATENT 输出连入 VAE Decode 即可直接解码！
+这个节点非常适合对视频进行无损保存,请同时备份好您的参考图,参考音频, 提示词和参数,尤其是帧率用于在任何地点解码视频.
 
 # Comfyui‑PT_MinimaxH3LatentSaver
 MiniMax H3 Latent Saver & loader
@@ -49,6 +50,7 @@ Add the 📂 PT Load Latent (MiniMax H3 AV) node.
 Method A (Click): Click the 📂 Click to select .latent file button on the node and pick the file from any location on your computer.
 Method B (Drag‑and‑Drop): Directly drag the .latent file from your folder onto the node.
 The node will automatically upload, parse and reconstruct the Nested Tensor. Connect the LATENT output to VAE Decode for direct decoding!
+This node is ideal for lossless video saving. Please also back up your reference images, reference audio, prompts and parameters, especially the frame rate for video decoding anywhere.
 
 📜 License
 MIT License. 自由使用，自由分发，但请保留作者署名。
