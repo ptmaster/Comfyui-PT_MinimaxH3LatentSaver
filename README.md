@@ -1,6 +1,8 @@
 # Comfyui-PT_MinimaxH3LatentSaver
 MiniMax H3 Latent Saver &amp; loader
 
+latent 在手, 天下任我走. With latent power in hand, I shall command this land.
+
 <img width="1342" height="1266" alt="E9349A66B29ADE1C82DB016EE543A80C" src="https://github.com/user-attachments/assets/9df8731c-5b93-44e1-9056-5309930484a1" />
 
 <img width="1458" height="1279" alt="89EE03DDFA92D0216E0DA81ACAE41F20" src="https://github.com/user-attachments/assets/31efa770-58c7-4b58-9490-ccb8d65e6675" />
