@@ -2,6 +2,10 @@
 MiniMax H3 Latent Saver &amp; loader
 
 latent 在手, 天下任我走. With latent power in hand, I shall command this land.
+这个节点非常适合对视频进行无损保存,请同时备份好您的参考图,参考音频, 提示词和参数,尤其是帧率用于在任何地点解码视频.
+这个节点也适用于MutiGPU的场景,把冗长的解码工作交给另外一张GPU运算卡.现阶段MiniMax H3 的解码时间甚至可能比采样器时间还长.
+This node is ideal for lossless video saving. Please back up your reference images, reference audio, prompts and parameters at the same time, especially the frame rate for video decoding anywhere.
+This node also works in Multi‑GPU scenarios, offloading the lengthy decoding work to another GPU card. At the current stage, the decoding time of MiniMax H3 may even be longer than the sampler time. 
 
 <img width="1342" height="1266" alt="E9349A66B29ADE1C82DB016EE543A80C" src="https://github.com/user-attachments/assets/9df8731c-5b93-44e1-9056-5309930484a1" />
 
