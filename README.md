@@ -31,20 +31,6 @@ Connect the LATENT output of the MiniMax H3 sampler to this node.
 Set filename_prefix (Chinese characters are supported; invalid characters will be filtered automatically).
 Select a save directory (input is strongly recommended for easy subsequent loading).
 Click Queue Prompt. The node will unpack, verify and save in the background, and pass the original Latent through to downstream nodes.
-2. Load Latent (Load)
-Add the 📂 PT Load Latent (MiniMax H3 AV) node.
-Method A (Click): Click the 📂 Click to select .latent file button on the node and pick the file from any location on your computer.
-Method B (Drag‑and‑Drop): Directly drag the .latent file from your folder onto the node.
-The node will automatically upload, parse and reconstruct the Nested Tensor. Connect the LATENT output to VAE Decode for direct decoding!
-# Comfyui‑PT_MinimaxH3LatentSaver
-MiniMax H3 Latent Saver & loader
-🎮 User Guide
-1. Save Latent (Save)
-Search for and add the 💾 PT Save Latent (MiniMax H3 AV) node in the node menu.
-Connect the LATENT output of the MiniMax H3 sampler to this node.
-Set filename_prefix (Chinese characters are supported; invalid characters will be filtered automatically).
-Select a save directory (input is strongly recommended for easy subsequent loading).
-Click Queue Prompt. The node will unpack, verify and save in the background, and pass the original Latent through to downstream nodes.
 3. Load Latent (Load)
 Add the 📂 PT Load Latent (MiniMax H3 AV) node.
 Method A (Click): Click the 📂 Click to select .latent file button on the node and pick the file from any location on your computer.
